@@ -1,23 +1,6 @@
 dataset_paths = {
-	#  Face Datasets (In the paper: FFHQ - train, CelebAHQ - test)
-	'ffhq': '',
-	'celeba_test': '',
-
-	#  Cars Dataset (In the paper: Stanford cars)
-	'cars_train': '',
-	'cars_test': '',
-
-	#  Horse Dataset (In the paper: LSUN Horse)
-	'horse_train': '',
-	'horse_test': '',
-
-	#  Church Dataset (In the paper: LSUN Church)
-	'church_train': '',
-	'church_test': '',
-
-	#  Cats Dataset (In the paper: LSUN Cat)
-	'cats_train': '',
-	'cats_test': ''
+    'my_train_data': '/path/to/train/images/directory',
+    'my_test_data': '/path/to/test/images/directory'
 }
 
 model_paths = {
